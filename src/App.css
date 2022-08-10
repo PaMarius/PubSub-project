@@ -1,0 +1,103 @@
+.App {
+  display: flex;
+  gap: 10px;
+  margin-top: 150px;
+  padding: 10px;
+  box-sizing: content-box;
+}
+
+.buttons {
+ width: 30%;
+ display: flex;
+ flex-direction: column;
+ gap: 50px;
+ align-items: center;
+}
+
+.text-number {
+  width: 70%;
+  height: 250px;
+  font-size: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(4, 195, 23, 0.638);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  font-weight: bold;
+}
+
+.increase {
+  width: 150px;
+  height: 100px;
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .increase:hover {
+    background-color: #fff;
+  }
+  
+  .increase:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .increase {
+      min-width: 120px;
+      padding: 0 25px;
+    }
+  }
+
+
+  .decrease {
+    width: 150px;
+    height: 100px;
+      background-color: #fbeee0;
+      border: 2px solid #422800;
+      border-radius: 30px;
+      box-shadow: #422800 4px 4px 0 0;
+      color: #422800;
+      cursor: pointer;
+      display: inline-block;
+      font-weight: 600;
+      font-size: 18px;
+      padding: 0 18px;
+      line-height: 50px;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+    .decrease:hover {
+      background-color: #fff;
+    }
+    
+    .decrease:active {
+      box-shadow: #422800 2px 2px 0 0;
+      transform: translate(2px, 2px);
+    }
+    
+    @media (min-width: 768px) {
+      .decrease {
+        min-width: 120px;
+        padding: 0 25px;
+      }
+    }
