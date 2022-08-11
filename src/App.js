@@ -1,5 +1,5 @@
 import "./App.css";
-import { useGlobalValue } from "./Constant/calculationStore";
+import { useGlobalValue } from "./Constant/functionality";
 
 function App() {
   const { value, publish } = useGlobalValue();
